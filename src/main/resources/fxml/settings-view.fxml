@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lanchat.controller.SettingsController" spacing="10" styleClass="settings-form">
+  <Label text="Make yourself at home." styleClass="chat-title"/>
+  <Label text="PROFILE" styleClass="section-label"/>
+  <Label text="Display name"/><TextField fx:id="name"/>
+  <Label text="Device name"/><TextField fx:id="device"/>
+  <Label fx:id="identity" wrapText="true" styleClass="composer-hint"/>
+  <Separator/><Label text="NETWORK" styleClass="section-label"/>
+  <ComboBox fx:id="network" maxWidth="Infinity"/>
+  <Label fx:id="networkDetails" wrapText="true" styleClass="composer-hint"/>
+  <Separator/><Label text="PREFERENCES" styleClass="section-label"/>
+  <CheckBox fx:id="notifications" text="Desktop notifications (where supported)"/>
+  <CheckBox fx:id="sounds" text="Message sounds"/>
+  <CheckBox fx:id="showIp" text="Show peer IP addresses"/>
+  <Separator/><Button text="Clear all chat history…" onAction="#clearHistory" styleClass="danger-button"/>
+  <Label fx:id="validation" wrapText="true" styleClass="error-text"/>
+</VBox>

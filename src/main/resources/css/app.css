@@ -1,0 +1,48 @@
+.root { -fx-font-family: "System"; -fx-font-size: 13px; -fx-accent: #258c72; -fx-focus-color: #258c72; -fx-faint-focus-color: transparent; }
+.app-root { -fx-background-color: #f5f7f8; }
+.sidebar { -fx-background-color: #172d32; -fx-padding: 28 18 22 18; }
+.brand-mark { -fx-background-color: #83ddba; -fx-text-fill: #173e33; -fx-font-size: 24px; -fx-font-weight: bold; -fx-padding: 5 13; -fx-background-radius: 12; }
+.brand { -fx-text-fill: #f5faf8; -fx-font-size: 23px; -fx-font-weight: bold; }
+.eyebrow { -fx-text-fill: #93adae; -fx-font-size: 9px; -fx-font-weight: bold; }
+.subtle { -fx-text-fill: #a9bcbc; -fx-font-size: 11px; }
+.search { -fx-background-color: #263e43; -fx-text-fill: #f2f8f5; -fx-prompt-text-fill: #9ab1b3; -fx-background-radius: 9; -fx-padding: 12; }
+.peer-list { -fx-background-color: transparent; -fx-padding: 0; }
+.peer-list .list-cell { -fx-background-color: transparent; -fx-padding: 10 8; -fx-background-radius: 10; }
+.peer-list .list-cell:filled:hover { -fx-background-color: #223e43; }
+.peer-list .list-cell:filled:selected { -fx-background-color: #2d4e51; }
+.peer-name, .profile-name { -fx-text-fill: #edf5f2; -fx-font-weight: bold; }
+.peer-detail { -fx-text-fill: #a7bdbc; -fx-font-size: 11px; }
+.peer-detail.online { -fx-text-fill: #93dfb7; }
+.chat-subtitle.online { -fx-text-fill: #2d8a64; }
+.peer-preview { -fx-text-fill: #c1cfcb; -fx-font-size: 11px; }
+.unread { -fx-background-color: #91e2bd; -fx-text-fill: #183b2f; -fx-background-radius: 12; -fx-padding: 2 6; -fx-font-size: 10px; }
+.network-label { -fx-text-fill: #b7cbc7; -fx-font-size: 11px; }
+.settings-button { -fx-background-color: #2e484d; -fx-text-fill: #e1ede8; -fx-background-radius: 7; -fx-cursor: hand; }
+.settings-button:hover { -fx-background-color: #3e6468; }
+.chat-panel { -fx-background-color: #f5f7f8; }
+.chat-header { -fx-padding: 23 28; -fx-background-color: white; -fx-border-color: transparent transparent #e3e9e7 transparent; }
+.avatar { -fx-background-color: #d7ece5; -fx-text-fill: #24745e; -fx-background-radius: 15; -fx-min-width: 46; -fx-min-height: 46; -fx-alignment: center; -fx-font-size: 20px; -fx-font-weight: bold; }
+.chat-title { -fx-text-fill: #203b3e; -fx-font-size: 19px; -fx-font-weight: bold; }
+.chat-subtitle { -fx-text-fill: #7b8f8c; -fx-font-size: 12px; }
+.pill { -fx-text-fill: #51816f; -fx-background-color: #eff6f1; -fx-background-radius: 6; -fx-padding: 5 8; -fx-font-size: 9px; -fx-font-weight: bold; }
+.conversation-scroll, .conversation-scroll > .viewport { -fx-background-color: #f5f7f8; }
+.messages { -fx-padding: 24 28; }
+.bubble { -fx-background-color: white; -fx-background-radius: 14 14 14 3; -fx-padding: 12 15; -fx-border-color: #e6ebe8; -fx-border-radius: 14 14 14 3; }
+.bubble.outgoing { -fx-background-color: #dff2e8; -fx-border-color: #d3e9de; -fx-background-radius: 14 14 3 14; -fx-border-radius: 14 14 3 14; }
+.message-text { -fx-text-fill: #233e3b; -fx-font-size: 14px; }
+.message-meta { -fx-text-fill: #71867f; -fx-font-size: 10px; }
+.typing { -fx-text-fill: #41836c; -fx-padding: 4 28; -fx-font-size: 11px; }
+.composer-area { -fx-padding: 14 24 18 24; -fx-background-color: white; -fx-border-color: #e4eae7 transparent transparent transparent; }
+.text-area { -fx-background-color: #f2f6f4; -fx-background-radius: 10; -fx-border-color: #e1e9e5; -fx-border-radius: 10; }
+.text-area .content { -fx-background-color: #f2f6f4; -fx-background-radius: 10; }
+.send-button { -fx-background-color: #258468; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 10; -fx-padding: 15 20; -fx-cursor: hand; }
+.send-button:hover { -fx-background-color: #1d7059; }
+.composer-hint { -fx-text-fill: #889792; -fx-font-size: 10px; }
+.empty-title { -fx-text-fill: #294840; -fx-font-size: 23px; -fx-font-weight: bold; }
+.empty-copy { -fx-text-fill: #7c9189; -fx-font-size: 13px; -fx-text-alignment: center; }
+.notice { -fx-background-color: #fff0cd; -fx-text-fill: #765f2e; -fx-padding: 10 20; }
+.settings-form { -fx-padding: 20; -fx-background-color: #f9fbfa; -fx-pref-width: 420; }
+.section-label { -fx-text-fill: #45836c; -fx-font-size: 10px; -fx-font-weight: bold; }
+.danger-button { -fx-text-fill: #a64040; -fx-background-color: #f6e8e8; -fx-padding: 10; }
+.error-text { -fx-text-fill: #a64040; -fx-font-size: 11px; }
+.retry-button { -fx-text-fill: #a64040; -fx-font-size: 10px; -fx-background-color: transparent; -fx-cursor: hand; }

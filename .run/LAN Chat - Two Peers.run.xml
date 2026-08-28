@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="LAN Chat - Two Peers" type="CompoundRunConfigurationType">
+    <toRun name="LAN Chat - Alice" type="Application" />
+    <toRun name="LAN Chat - Bob" type="Application" />
+    <method v="2" />
+  </configuration>
+</component>

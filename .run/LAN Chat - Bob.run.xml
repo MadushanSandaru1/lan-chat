@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="LAN Chat - Bob" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.lanchat.Launcher" />
+    <module name="lan-chat" />
+    <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <envs>
+      <env name="LANCHAT_DATA_DIR" value="$PROJECT_DIR$/.runtime/bob" />
+    </envs>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

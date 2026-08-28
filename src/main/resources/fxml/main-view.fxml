@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lanchat.controller.MainController" styleClass="app-root">
+  <left>
+    <VBox prefWidth="280" minWidth="250" maxWidth="320" styleClass="sidebar" spacing="18">
+      <HBox alignment="CENTER_LEFT" spacing="10"><Label text="L" styleClass="brand-mark"/><VBox><Label text="LAN Chat" styleClass="brand"/><Label text="CLOSER, WITHOUT THE CLOUD" styleClass="eyebrow"/></VBox></HBox>
+      <TextField fx:id="search" promptText="Search people or devices" styleClass="search"/>
+      <HBox><Label text="YOUR NETWORK" styleClass="eyebrow"/><Pane HBox.hgrow="ALWAYS"/><Label fx:id="peerCount" text="0 online" styleClass="subtle"/></HBox>
+      <ListView fx:id="peers" VBox.vgrow="ALWAYS" styleClass="peer-list"/>
+      <Label fx:id="networkLabel" text="Starting LAN Chat…" wrapText="true" styleClass="network-label"/>
+      <Separator/>
+      <HBox alignment="CENTER_LEFT" spacing="10"><VBox HBox.hgrow="ALWAYS"><Label fx:id="profileName" text="Your profile" styleClass="profile-name"/><Label text="Local network · v1.0" styleClass="subtle"/></VBox><Button text="Settings" onAction="#settings" styleClass="settings-button"/></HBox>
+    </VBox>
+  </left>
+  <center><VBox><Label fx:id="notice" managed="false" visible="false" wrapText="true" maxWidth="Infinity" styleClass="notice"/><fx:include fx:id="chat" source="chat-view.fxml" VBox.vgrow="ALWAYS"/></VBox></center>
+</BorderPane>
